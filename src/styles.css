@@ -1,0 +1,58 @@
+/* body{
+  background: black;
+  color: white;
+  padding: 25px;
+  font-family: sans-serif;
+
+}
+
+.portfolioPicture{
+  width: 320px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2rem;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.portfolioPicture {
+  width: 320px;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.bio {
+  position: relative;
+  z-index: 1;
+  color: black;
+}
