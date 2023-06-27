@@ -16,30 +16,32 @@ body {
 
 h1 {
   font-size: 4rem;
-  position: relative;
-  z-index: 1;
 }
 
 .portfolioPicture {
   width: 320px;
-  position: relative;
-  z-index: 1;
   margin-inline-end: 4rem;
 }
 
 h2 {
   font-size: 2rem;
-  position: relative;
-  z-index: 1;
 }
 
 .bio {
-  position: relative;
-  z-index: 1;
-  color: black;
   font-size: 2rem;
+}
+
+.mission {
+font-size: 2rem;
 }
 
 section{
   display: flex;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  color: #333;
+  background-color: #333;
 }
